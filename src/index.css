@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  html.dark body  {
+    @apply bg-nav-color;
+    
+  }
+  html body {
+    @apply bg-white 
+  }
+  body {
+    background-image: url('./assets/imgs/back.webp');
+  }
+  .body-logo-sky {
+    margin:auto 0;
+    background-image: url('./assets//imgs//lynx_in_space.webp');
+    background-repeat: no-repeat;
+    background-position: 85% 60%, center center ;
+  }
+
+}
